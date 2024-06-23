@@ -36,7 +36,7 @@ function Faq() {
           nemo commodi dolor perferendis, error odit inventore qui nam saepe
           nesciunt sit doloremque dignissimos temporibus totam magni.
         </li>
-        <li className="list-disc mb-3">
+        <li className="list-disc mb-10">
           Repudiandae quae praesentium tenetur tempora, pariatur, voluptate
           voluptatum ipsa sequi temporibus sapiente vero, eaque libero odio
           eveniet corporis sed! Dicta accusamus in architecto, tenetur dolor nam

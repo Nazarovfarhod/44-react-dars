@@ -2,7 +2,7 @@ import { useFetch } from "../../hook/useFetch";
 
 function Articles() {
   const {
-    data: articles,
+    data:articles,
     isPending,
     error,
   } = useFetch(
