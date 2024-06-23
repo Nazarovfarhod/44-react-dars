@@ -23,11 +23,11 @@ function Articles() {
               key={article.id}
             >
               <h3 className="font-bold mb-5">Title: {article.title}</h3>
-              <p>
+              <p className="mb-4">
                 Author: <i>{article.author}</i>
               </p>
 
-              <NavLink to="">Read More</NavLink>
+              <NavLink className="text-blue-600 underline" to="">Read More</NavLink>
             </div>
           );
         })}

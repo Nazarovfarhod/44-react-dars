@@ -1,6 +1,6 @@
 function Faq() {
   return (
-    <div>
+    <div className="pb-12">
       <h2 className="w-full text-center mb-4 font-medium">FAQ</h2>
       <hr className="bg-black h-[2px] mb-3" />
       <ul>

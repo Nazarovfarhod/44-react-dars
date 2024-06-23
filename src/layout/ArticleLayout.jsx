@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 function ArticleLayout() {
   return (
-    <div>
+    <div className="pb-12">
       <h2 className="font-semibold text-2xl text-center w-full mb-4 font-serif">
         My Articles
       </h2>
