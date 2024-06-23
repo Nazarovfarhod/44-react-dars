@@ -22,7 +22,7 @@ const useFetch = (url) => {
         setIsPending(false);
       }
     };
-    // fetchData();
+    fetchData();
   }, [url]);
 
   return { data, isPending, error };
