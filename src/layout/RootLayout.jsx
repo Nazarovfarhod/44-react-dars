@@ -4,7 +4,7 @@ function RootLayout() {
   return (
     <>
       <header>
-        <nav className="flex pt-10 justify-between items-center px-10 mt-0 mb-16 w-full mx-auto">
+        <nav className="flex pt-10 justify-between items-center shadow-md rounded-xl px-10 mt-0 mb-16 w-full mx-auto">
           <h1 className="mr-auto mb-5 font-bold  text-3xl">My Articles</h1>
           <div className="flex gap-5">
             <NavLink
