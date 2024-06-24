@@ -13,7 +13,11 @@ function Articles() {
 
   return (
     <div>
-      {isPending && <h3>Loading...</h3>}
+      {isPending && (
+        <div className="w-full h-lvh flex justify-center pt-12">
+          <h3 className="text-3xl font-semibold">Loading...</h3>
+        </div>
+      )}
       {error && <h3>{error}</h3>}
       {articles &&
         articles.data.map((article) => {
@@ -27,7 +31,12 @@ function Articles() {
                 Author: <i>{article.author}</i>
               </p>
 
-              <NavLink className="text-blue-600 underline" to="">Read More</NavLink>
+              <NavLink
+                className="text-blue-600 underline"
+                to={`/articles/${article.id}`}
+              >
+                Read More
+              </NavLink>
             </div>
           );
         })}

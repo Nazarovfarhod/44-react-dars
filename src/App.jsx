@@ -5,18 +5,20 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
-//layout
-import RootLayout from "./layout/RootLayout";
 
 //pages
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Faq from "./pages/help/Faq";
 import Form from "./pages/help/Form";
-import ContactLayout from "./layout/ContactLayout";
 import PageNotFound from "./pages/PageNoteFound";
-import ArticleLayout from "./layout/ArticleLayout";
 import Articles from "./pages/articles/Articles";
+import ArticlesDetail from "./pages/articles/ArticlesDetail";
+
+//layout
+import RootLayout from "./layout/RootLayout";
+import ContactLayout from "./layout/ContactLayout";
+import ArticleLayout from "./layout/ArticleLayout";
 
 function App() {
   const routes = createBrowserRouter(
@@ -30,6 +32,7 @@ function App() {
         </Route>
         <Route path="articles" element={<ArticleLayout />}>
           <Route index element={<Articles />} />
+          <Route path=":id" element={<ArticlesDetail />} />
         </Route>
 
         {/* //Page Not Found */}
