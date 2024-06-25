@@ -7,7 +7,8 @@ function RootLayout() {
       <header>
         <nav className="flex pt-10 justify-between items-center shadow-md rounded-xl px-10 mt-0 mb-16 w-full mx-auto">
           <NavLink to={"/"} className="mr-auto mb-5 font-bold  text-3xl">
-            My Articles
+            <span className="text-4xl mr-4 font-serif text-info tracking-widest"><i>FN</i></span>
+            Articles
           </NavLink>
           <div className="flex gap-5">
             <NavLink
