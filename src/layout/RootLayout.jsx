@@ -18,7 +18,7 @@ function RootLayout() {
               Home
             </NavLink>
             <NavLink
-              className="hover:underline active-[text-white] active-[bg-[#333]]active-[no-underline]"
+              className="hover:underline active:text-white active:bg-[#333] active:no-underline"
               to="/articles"
             >
               Articles
