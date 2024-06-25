@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
 
 function ContactLayout() {
+  console.log(nice);
   return (
     <div>
       <h1 className="font-bold text-3xl text-center mb-5">Contact</h1>

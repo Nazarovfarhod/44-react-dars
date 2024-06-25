@@ -1,6 +1,6 @@
 function Form() {
   return (
-    <>
+    <div className="mb-10">
       <h2 className="w-full text-center mb-4 font-medium">Sen Us Questions</h2>
       <hr className="bg-black h-[2px]" />
       <div className="w-full max-w-[300px] mx-auto pt-5">
@@ -21,7 +21,7 @@ function Form() {
           </button>
         </form>
       </div>
-    </>
+    </div>
   );
 }
 
