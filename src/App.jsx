@@ -64,7 +64,8 @@ function App() {
 
   return (
     <div className="w-full px-12 max-w-[1024px] my-0 h-lvh mx-auto">
-      <RouterProvider router={routes} />
+      <RouterProvider
+      ={routes} />
     </div>
   );
 }
